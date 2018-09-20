@@ -94,15 +94,15 @@
   border-radius: 6px;
   padding: 22px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .wrap-to-the-text{
     display: none;
   }
   .red-remove-button{
     width: 40%;
   }
-  .wrap-for-the-input {
-    width: 98%;
+  .wrap-for-the-input, .wrap-for-result {
+    width: 96%;
   }
   .wrap-for-the-input input{
     margin-left: 0%;
