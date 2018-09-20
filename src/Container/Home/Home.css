@@ -1,0 +1,113 @@
+.Home{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 100px 0 100px;
+}
+.wrap-for-the-input {
+  position: relative;
+  width: 52%;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 13px;
+}
+.wrap-for-the-input input{
+  font-size: 20px;
+  width: 75%;
+  margin-left: 15%;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.add-button{
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  padding: 20px 0 ;
+}
+.add-button a {
+  background: #3f51b5d4;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  width: 5%;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.red-remove-button{
+  background: #de0d0d;
+  color: #fff;
+  border: 10px;
+  display: block;
+  text-align: center;
+  width: 10%;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.wrap-to-the-text{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  background: #a2a2a2;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 2% 0 2%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  width: 16%;
+}
+.wrap-to-the-text:hover, .add-button a:hover, .red-remove-button:hover{
+  text-decoration: none;
+  color: white;
+}
+.add-button a:hover, .red-remove-button:hover{
+
+}
+.context-input{
+  border: 1px solid#a2a2a2;
+}
+
+.context-input:hover, .context-input:focus, .context-input:active{
+  outline: none;
+}
+
+.wrap-for-result{
+  width: 52%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #76d6aa85;
+  border-radius: 6px;
+  padding: 22px;
+}
+@media only screen and (max-width: 768px) {
+  .wrap-to-the-text{
+    display: none;
+  }
+  .red-remove-button{
+    width: 40%;
+  }
+  .wrap-for-the-input {
+    width: 98%;
+  }
+  .wrap-for-the-input input{
+    margin-left: 0%;
+  }
+  .add-button a{
+    width: 20%;
+  }
+}
