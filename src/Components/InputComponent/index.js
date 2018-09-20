@@ -22,7 +22,7 @@ export class InputComponent extends Component {
           className='context-input'
           onChange={(event) => this.onTextChange(event.target.value)}
           placeholder=""
-          value={this.props.result.value}
+          value={this.props.result.value || ''}
         />
         <a className="red-remove-button" onClick={() => this.removeBlock(this)}>Remove</a>
       </div>
